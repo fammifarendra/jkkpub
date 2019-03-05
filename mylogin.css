@@ -1,0 +1,65 @@
+.container {
+	margin-top:10;
+	display: block;
+}
+.navbar-inverse {
+	margin-top:2;		
+	height:4;
+  background-image: linear-gradient(to left, #006400,green,#98FB98);
+  background-repeat: no-repeat;
+  border:0;
+ }
+.navbar-default { 
+    height:50;
+	background-image: linear-gradient(to left, #E0E0E0,white,#E0E0E0);
+}
+.navbar-collapse {
+    max-width:100%;
+	background-image: linear-gradient(to left, #E0E0E0,white,#E0E0E0);    
+}
+.active, .dropdown {
+	color:black; 
+	text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.8);
+	font-weight:bold;
+	cursor:pointer;
+
+}
+.active:hover { 
+	font-weight:normal;
+	text-shadow: 1px 1px 
+	color:white;
+
+}
+.dropdown:hover { 
+	font-weight:normal;
+	text-shadow: 1px 1px 
+	color:white;
+}
+.awalboxmasuk {
+     max-width:100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.message {
+    position: fixed;
+    top: 0px;
+    width: 60%;
+    left: 20%;
+    background: #ff9;
+    border: 1px solid #fc0;
+    font-size: 120%;
+    padding: 15px 50px
+}
+.message p {
+    margin: 0;
+    padding: 0 40px 0 20px;
+    text-align: center;
+}
